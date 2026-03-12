@@ -1,0 +1,38 @@
+# Managing Services Lab
+
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![Linux](https://img.shields.io/badge/Linux-Amazon%20Linux%202-yellow)
+![Service](https://img.shields.io/badge/Service-httpd-blue)
+![Monitoring](https://img.shields.io/badge/Monitoring-CloudWatch-green)
+
+##  Lab Description
+
+This lab demonstrates how to **manage and monitor services on an Amazon Linux 2 EC2 instance**.  
+You will verify that the Apache web server (`httpd`) is running, test HTTP connectivity, and monitor the system using Linux and AWS tools.
+
+---
+
+## Objectives
+
+In this lab, you will:
+
+- Check the status of the **httpd service**
+- Ensure an **HTTP connection to localhost** works
+- Monitor your **Amazon Linux 2 EC2 instance**
+- Use the **Linux `top` command**
+- Monitor instance metrics using **AWS CloudWatch**
+
+---
+
+## Technologies Used
+
+- Amazon EC2
+- Amazon Linux 2
+- Apache HTTP Server (httpd)
+- Linux systemctl
+- Linux top command
+- AWS CloudWatch
+
+---
+
+## Project Structure
