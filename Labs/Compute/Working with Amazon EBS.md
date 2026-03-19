@@ -54,7 +54,6 @@ Use **EC2 Instance Connect** or SSH to access your terminal for the remaining ta
 
 ## Task 4: Create and Configure the File System
 
-```bash
 # Verify available storage
 df -h
 
@@ -79,8 +78,9 @@ sudo sh -c "echo 'some text has been written' > /mnt/data-store/file.txt"
 # Verify file content
 cat /mnt/data-store/file.txt
 
+---
 
-Task 5: Create an Amazon EBS Snapshot
+# Task 5: Create an Amazon EBS Snapshot
 
 Navigate to Volumes → My Volume → Actions → Create snapshot
 
@@ -88,11 +88,15 @@ Add a tag: Name = My Snapshot
 
 Snapshot status: Pending → Completed
 
+
 # Optional: delete test file after snapshot
 sudo rm /mnt/data-store/file.txt
 ls /mnt/data-store/file.txt  # Should display: No such file or directory
 
-Task 6: Restore Volume from Snapshot
+---
+
+# Task 6: Restore Volume from Snapshot
+
 6.1 Create Volume from Snapshot
 
 Navigate to Snapshots → My Snapshot → Actions → Create volume
@@ -120,7 +124,9 @@ sudo mount /dev/sdc /mnt/data-store2
 # Verify restored file exists
 ls /mnt/data-store2/file.txt
 
-Conclusion: 
+---
+
+# Conclusion: 
 
 Created an EBS volume
 
