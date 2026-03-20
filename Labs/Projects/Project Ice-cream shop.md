@@ -1,19 +1,35 @@
-# Creating static-website-icecream-shop
+#        🍨🍓 Website-Icecream-shop 🍧🍦
+
+<img width="756" height="756" alt="13" src="https://github.com/user-attachments/assets/e65bb4fe-d2bc-4971-a3d0-774efa16ab37" />
 
 
-# 1. Start Sandbox
+## Introduction
+
+This project was created as part of a team effort to build an ice cream shop website, which was an amazing experience. In this repository, 
+I will walk you through the process step by step to show how everything was created.
 
 
-# 2. Accessing the AWS Management Console
+## ☁️ Why We Chose Amazon S3
+
+For this project, we decided to use Amazon S3 (Simple Storage Service) to host our website.
+
+Amazon S3 is a reliable and scalable cloud storage service that makes it easy to store and serve static website files such as HTML, CSS, and images. It is widely used for web hosting because of its simplicity and performance.
+
+One of the main advantages is that S3 allows us to host a static website without needing to manage a server. This makes the setup faster and reduces complexity.
+
+Additionally, S3 provides high availability, meaning the website can be accessed at any time, and it can easily scale if the project grows.
+
+Overall, Amazon S3 was a great choice for our ice cream shop website because it is easy to use, cost-effective, and perfect for static web hosting.
+
+<img width="756" height="756" alt="Why we use Amazon S3 " src="https://github.com/user-attachments/assets/307ecb5c-ddf9-4538-8c71-cf1192063884" />
+
+---
+## Step by Step Menu
+
+<img width="756" height="756" alt="Step by Step Menu" src="https://github.com/user-attachments/assets/cc87363e-e66b-43ed-95a9-4272c336ada8" />
 
 
-Click **Start Lab** to launch the lab.
-Wait until you see **"Lab status: ready"**, then close the panel.
-Click **AWS** (next to Start Lab) to open the AWS Management Console in a new tab. You will be signed in automatically.
-If the tab doesn’t open, allow pop-ups in your browser and try again.
-Arrange the AWS Console and these instructions side by side..
-
-# 3. Create a bucket
+# 1. Create a bucket
 
 Sign in to the AWS Management Console and open the S3 console: https://console.aws.amazon.com/s3/
 Click **Create bucket**.
@@ -23,9 +39,7 @@ Choose a region close to you for lower latency and cost.
 The region also determines your S3 website endpoint.
 Leave the default settings and click **Create bucket**.
 
-<img width="729" height="560" alt="S3 bucket" src="https://github.com/user-attachments/assets/c431fad2-330d-4f18-b600-4ff97e900978" />
-
-# 4. Enable static website hosting
+# 2. Enable static website hosting
 
 Open the S3 console: https://console.aws.amazon.com/s3/
 
@@ -37,6 +51,9 @@ Choose **Use this bucket to host a website**.
  Enable static website hosting.
  Enter `index.html` as the **Index document** (case-sensitive).
 Click **Save changes**.
+
+<img width="556" height="556" alt="S3 bucket" src="https://github.com/user-attachments/assets/36dd9659-5e6c-4916-814b-dc4d6ef8b214" />
+
 
 Copy the **Website endpoint URL** to test your site.
 
