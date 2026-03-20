@@ -52,13 +52,30 @@ Choose **Use this bucket to host a website**.
  Enter `index.html` as the **Index document** (case-sensitive).
 Click **Save changes**.
 
-<img width="556" height="556" alt="S3 bucket" src="https://github.com/user-attachments/assets/36dd9659-5e6c-4916-814b-dc4d6ef8b214" />
+<img width="356" height="356" alt="S3 bucket" src="https://github.com/user-attachments/assets/36dd9659-5e6c-4916-814b-dc4d6ef8b214" />
 
+# 2.1 Create Your Website Files Locally 💻
 
-Copy the **Website endpoint URL** to test your site.
+This happens before uploading anything to S3
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ice Cream Shop</title>
+</head>
+<body>
+    <h1>Welcome to our Ice Cream Shop 🍦</h1>
+    <p>The sweetest project ever!</p>
+</body>
+</html>
 
-5. Add a bucket policy that makes our bucket content publicly available
+Save this as: index.html
+---
+
+# 3. Add a bucket policy that makes our bucket content publicly available
+
+   <img width="356" height="356" alt="11" src="https://github.com/user-attachments/assets/5999f6e5-9e5d-4eb3-9076-e3be3e36e3bd" />
+
 1. Open the S3 console: https://console.aws.amazon.com/s3/
 2. Select your bucket: `static-website-icecream-shop`.
 3. Go to the **Permissions** tab.
