@@ -16,7 +16,8 @@ The platform is expected to serve **millions of users globally** and must meet f
 
 ## Architecture Diagram
 
-![3D E-Commerce AWS Architecture](./screenshots/3D_E-Commerce_Platform.png)
+<img width="1391" height="1080" alt="3D E-Commerce Platform-Updated drawio" src="https://github.com/user-attachments/assets/9128a221-036d-4e74-8ec4-ae3686d1b72f" />
+
 
 ---
 
@@ -119,7 +120,7 @@ EC2 runs the core application logic continuously. Lambda handles infrequent even
 
 Before this project, AWS felt like a long and disconnected list of service names. Designing this architecture from scratch changed that completely.
 
-The most important thing I learned is that **architecture is not a list of services — it is the story of a user's journey**. Once I traced what actually happens when someone opens a website and clicks on a 3D model, every service stopped being an abstract name and became a logical answer to a specific problem. CloudFront exists because 3D files are heavy and users are everywhere. Two Availability Zones exist because a single data center can lose power. Lambda exists because not every task needs a server running around the clock.
+The most important thing We learned is that **architecture is not a list of services — it is the story of a user's journey**. Once I traced what actually happens when someone opens a website and clicks on a 3D model, every service stopped being an abstract name and became a logical answer to a specific problem. CloudFront exists because 3D files are heavy and users are everywhere. Two Availability Zones exist because a single data center can lose power. Lambda exists because not every task needs a server running around the clock.
 
 I also learned the difference between **availability and scalability** — two words I used interchangeably before. Availability is about staying online when something breaks. Scalability is about handling more load when more people arrive. They are solved by different services and different design decisions.
 
