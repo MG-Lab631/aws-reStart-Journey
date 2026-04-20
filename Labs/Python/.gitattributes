@@ -1,1 +1,7 @@
 * text=auto
+* text=auto eol=lf
+
+git add --renormalize .
+git commit -m "Normalize line endings"
+
+git config --global core.autocrlf input
