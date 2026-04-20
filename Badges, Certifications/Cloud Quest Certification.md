@@ -1,12 +1,11 @@
-## ☁️ AWS Cloud Quest: Cloud Practitioner Certification Badge
+## ☁️ AWS Cloud Quest: Cloud Practitioner – Training Badge
 
-I successfully completed the **AWS Cloud Quest: Cloud Practitioner Certification Badge**, an interactive and hands-on learning experience provided by Amazon Web Services.
+I successfully completed the **AWS Cloud Quest: Cloud Practitioner – Training Badge**, a gamified and hands-on learning experience provided by Amazon Web Services.
 
-During the journey, I explored fundamental cloud concepts through real-world scenarios, including compute, storage, networking, security, and cloud architecture. 
-+The gamified format made the learning process engaging while strengthening my practical understanding of AWS services and best practices.
+Throughout the program, I worked on real-world scenarios covering core AWS concepts such as compute, storage, networking, security, and basic cloud architecture. The interactive approach helped me strengthen both my theoretical understanding and practical skills within the AWS ecosystem.
 
-I completed the certification in **7 days**, taking it on as a personal challenge. This required consistent effort, focus, and discipline to progress through the modules within a short timeframe.
+I completed the training in **7 days** as a personal challenge, maintaining consistent focus and discipline to progress through all modules within a short timeframe.
 
-This achievement demonstrates my commitment to building a strong foundation in cloud computing and applying AWS knowledge in practical situations.
+This achievement reflects my commitment to building a solid foundation in cloud computing and continuously developing my skills in AWS.
 
 https://www.credly.com/badges/22004fba-e860-41ac-9282-37ac7c3aa344/public_url
