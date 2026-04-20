@@ -1,13 +1,24 @@
-# My Journey in the AWS re/Start Program 
+# Hi, I'm Myrna Garza 
 
-## Introduction
+## a little about me...
+
+Yes, I did my Clifton Strengths personal check skills and one of the most important Skills, how I Lead is:
+
+<img width="508" height="504" alt="I&#39;m a Lerner, Clifton Strengths" src="https://github.com/user-attachments/assets/09402ddf-5ffc-4fd9-8a3f-91ee740e8e57" />
+
+There is the reason why I want to show you how I did to complete all the challenges I made.
+
+Like AWS re/start Program, this Program is amazing not only because is a Big Challenge, but because sometimes Life could be like Hiking a Mountain.
+
+Let's see how the rise is..
+
+---
+# My Journey in the AWS re/Start Program 
 
 This repository documents my learning journey through the AWS re/Start program.  
 The program is designed to help individuals build foundational cloud computing skills and prepare for entry-level careers in the technology industry.
 
 The goal of this repository is to track my progress, share what I learn, and document the hands-on experience I gain while studying cloud computing.
-
----
 
 ## What is the AWS re/Start Program?
 
