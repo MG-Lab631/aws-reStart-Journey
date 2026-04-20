@@ -11,3 +11,5 @@ This achievement reflects my commitment to building a strong foundation in cyber
 https://skillbuilder.aws/learn/3KYWQBTSTV/aws-simulearn-core-security-concepts/Q29T2DWZPK 
 
 <img width="1088" height="888" alt="Simullearn Security Concepts" src="https://github.com/user-attachments/assets/122b640a-70a4-4248-8e5a-1b5ad2d5efba" />
+
+<img width="430" height="209" alt="image" src="https://github.com/user-attachments/assets/b492a75f-3b2a-4f92-90cd-abe61e6850aa" />
