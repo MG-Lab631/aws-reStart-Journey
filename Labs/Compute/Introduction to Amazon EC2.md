@@ -39,6 +39,8 @@ The goal of the Labs is to understand:
 | Lab 3 | Connecting to an EC2 Instance |
 | Lab 4 | Monitoring EC2 Resources |
 
+<img width="736" height="724" alt="Introduction AWS EC2" src="https://github.com/user-attachments/assets/b44f043d-a8b1-4132-a8d7-7c357d27e555" />
+
 ---
 
 ## Key Concepts Learned
