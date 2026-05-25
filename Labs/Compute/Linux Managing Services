@@ -1,5 +1,0 @@
-ec2-httpd-monitoring-lab
-│
-├── README.md
-├── check_httpd.sh
-└── cloudwatch_setup.md
